@@ -1,1 +1,1 @@
-# JDBC-inventory-management
+# JDBC
