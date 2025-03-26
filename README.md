@@ -21,14 +21,14 @@ Before you begin, ensure you have the following installed on your machine:
 1. Clone the repository
     Open your terminal and run:
     ```
-    sh
+    
     git clone https://github.com/ragavithangaraj/JDBC-inventory-management.git
     ```
 
 2. Navigate to the project directory
     Change to the project directory:
     ```
-    sh
+    
     cd JDBC-inventory-management
     ```
 
