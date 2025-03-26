@@ -1,4 +1,4 @@
-Here's an attractive `README.md` file for the `JDBC-inventory-management` project, which includes detailed instructions on how to set up and run the project:
+Here's a revised `README.md` file with a more attractive format and without visible stars and hashes for the procedure:
 
 ```markdown
 # JDBC Inventory Management
@@ -24,18 +24,20 @@ Before you begin, ensure you have the following installed on your machine:
 ## Installation and Setup
 
 1. **Clone the repository**
+    Open your terminal and run:
     ```sh
     git clone https://github.com/ragavithangaraj/JDBC-inventory-management.git
     ```
 
 2. **Navigate to the project directory**
+    Change to the project directory:
     ```sh
     cd JDBC-inventory-management
     ```
 
 3. **Configure the database**
     - Create a database named `inventory_db`.
-    - Update the `src/main/resources/db.properties` file with your database connection details.
+    - Update the `src/main/resources/db.properties` file with your database connection details:
       ```properties
       db.url=jdbc:mysql://localhost:3306/inventory_db
       db.username=your_username
@@ -43,37 +45,44 @@ Before you begin, ensure you have the following installed on your machine:
       ```
 
 4. **Build the project**
+    Compile the project using Maven:
     ```sh
     mvn clean install
     ```
 
 5. **Run the project**
+    Execute the main class:
     ```sh
     mvn exec:java -Dexec.mainClass="com.example.Main"
     ```
 
 ## Usage
 - **Add Inventory Item**
+  To add a new item, run:
   ```sh
   java -cp target/JDBC-inventory-management-1.0-SNAPSHOT.jar com.example.Main add "Item Name" "Item Description" 100
   ```
 
 - **View All Inventory Items**
+  To view all items, run:
   ```sh
   java -cp target/JDBC-inventory-management-1.0-SNAPSHOT.jar com.example.Main view
   ```
 
 - **Update Inventory Item**
+  To update an existing item, run:
   ```sh
   java -cp target/JDBC-inventory-management-1.0-SNAPSHOT.jar com.example.Main update 1 "Updated Item Name" "Updated Description" 150
   ```
 
 - **Delete Inventory Item**
+  To delete an item, run:
   ```sh
   java -cp target/JDBC-inventory-management-1.0-SNAPSHOT.jar com.example.Main delete 1
   ```
 
 - **Search Inventory Item by Name**
+  To search for an item by name, run:
   ```sh
   java -cp target/JDBC-inventory-management-1.0-SNAPSHOT.jar com.example.Main search "Item Name"
   ```
@@ -114,7 +123,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Enjoy managing your inventory with ease!
-
 ```
 
 Make sure to replace the placeholder image URL (`https://example.com/inventory-management-banner.png`) with an actual link to an image that represents your project. Uploading the image to your repository and using the raw URL from there will make your README more engaging.
