@@ -23,19 +23,19 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Installation and Setup
 
-1. **Clone the repository**
+1. Clone the repository
     Open your terminal and run:
     ```sh
     git clone https://github.com/ragavithangaraj/JDBC-inventory-management.git
     ```
 
-2. **Navigate to the project directory**
+2. Navigate to the project directory
     Change to the project directory:
     ```sh
     cd JDBC-inventory-management
     ```
 
-3. **Configure the database**
+3. Configure the database
     - Create a database named `inventory_db`.
     - Update the `src/main/resources/db.properties` file with your database connection details:
       ```properties
@@ -44,13 +44,13 @@ Before you begin, ensure you have the following installed on your machine:
       db.password=your_password
       ```
 
-4. **Build the project**
+4. Build the project
     Compile the project using Maven:
     ```sh
     mvn clean install
     ```
 
-5. *Run the project*
+5. Run the project
     Execute the main class:
     ```sh
     mvn exec:java -Dexec.mainClass="com.example.Main"
