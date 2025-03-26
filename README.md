@@ -50,7 +50,7 @@ Before you begin, ensure you have the following installed on your machine:
 5. Run the project
     Execute the main class
     
-
+# Project structure
 ```
 JDBC-inventory-management/
 ├── src/
