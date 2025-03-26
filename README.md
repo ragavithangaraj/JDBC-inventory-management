@@ -57,7 +57,7 @@ Before you begin, ensure you have the following installed on your machine:
     ```
 
 ## Usage
-- **Add Inventory Item**
+- Add Inventory Item
   To add a new item, run:
   ```sh
   java -cp target/JDBC-inventory-management-1.0-SNAPSHOT.jar com.example.Main add "Item Name" "Item Description" 100
