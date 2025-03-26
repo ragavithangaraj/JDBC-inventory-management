@@ -50,7 +50,7 @@ Before you begin, ensure you have the following installed on your machine:
     mvn clean install
     ```
 
-5. **Run the project**
+5. *Run the project*
     Execute the main class:
     ```sh
     mvn exec:java -Dexec.mainClass="com.example.Main"
